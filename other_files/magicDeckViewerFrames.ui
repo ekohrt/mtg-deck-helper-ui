@@ -261,14 +261,14 @@ Legendary Planeswalker — Liliana
     <property name="title">
      <string>Info</string>
     </property>
-    <addaction name="actionMade_by_Ethan_Kohrt_2020"/>
+    <addaction name="actionMade_by_ekohrt_2020"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionMade_by_Ethan_Kohrt_2020">
+  <action name="actionMade_by_ekohrt_2020">
    <property name="text">
-    <string>Made by Ethan Kohrt (2020)</string>
+    <string>Made by ekohrt (2020)</string>
    </property>
   </action>
  </widget>
