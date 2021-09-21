@@ -1,4 +1,4 @@
-# mtg-deck-helper-ui
+# Deck-building Tool for Magic: the Gathering
 Python UI for viewing a Magic: the Gathering decklist.  
 Also includes tools for finding similar cards and deck suggestions.  
 
@@ -10,4 +10,6 @@ The "View Suggestions" button suggests cards that often appear in similar decks,
   
 The "Pull Image from Gatherer" button sends a request to [Gatherer](https://gatherer.wizards.com/Pages/Default.aspx) and downloads the selected card's image to your computer.  
   
-There is currently no feature to search a card by name: to add a card to the deck, type its name in the text field on the left.
+There is currently no feature to search a card by name; to add a card to the deck, type its name in the text field on the left.
+  
+The UI was built with [QT Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html).
