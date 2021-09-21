@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan  8 13:50:01 2021
-@author: Ethan
+@author: ekohrt
 
 This class iherits from the original ui class. This way we can make changes to the 
 ui in QTDesigner while keeping this backend intact. Run the app from here.

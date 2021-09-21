@@ -134,9 +134,9 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
-        self.actionMade_by_Ethan_Kohrt_2020 = QtWidgets.QAction(MainWindow)
-        self.actionMade_by_Ethan_Kohrt_2020.setObjectName("actionMade_by_Ethan_Kohrt_2021")
-        self.menuFile.addAction(self.actionMade_by_Ethan_Kohrt_2020)
+        self.actionMade_by_ekohrt_2020 = QtWidgets.QAction(MainWindow)
+        self.actionMade_by_ekohrt_2020.setObjectName("actionMade_by_ekohrt_2021")
+        self.menuFile.addAction(self.actionMade_by_ekohrt_2020)
         self.menubar.addAction(self.menuFile.menuAction())
 
         self.retranslateUi(MainWindow)
@@ -144,7 +144,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Deck Helper - by Ethan Kohrt (2021)"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Deck Helper - by ekohrt (2021)"))
         self.viewSuggestions_pushButton.setToolTip(_translate("MainWindow", "Suggests related cards based on your current deck"))
         self.viewSuggestions_pushButton.setText(_translate("MainWindow", "View Suggestions"))
         __sortingEnabled = self.deck_listWidget.isSortingEnabled()
@@ -183,7 +183,7 @@ class Ui_MainWindow(object):
         self.viewSimilar_pushButton.setToolTip(_translate("MainWindow", "Suggests cards that are similar to this card"))
         self.viewSimilar_pushButton.setText(_translate("MainWindow", "Suggest Similar"))
         self.menuFile.setTitle(_translate("MainWindow", "Info"))
-        self.actionMade_by_Ethan_Kohrt_2020.setText(_translate("MainWindow", "Made by Ethan Kohrt (2021)"))
+        self.actionMade_by_ekohrt_2020.setText(_translate("MainWindow", "Made by ekohrt (2021)"))
 #        
 #        ##########################
 #        #Attach Buttons to methods

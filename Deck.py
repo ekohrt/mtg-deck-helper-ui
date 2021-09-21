@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan  6 23:53:49 2021
-@author: Ethan
+@author: ekohrt
 
 Class that represents a magic deck
 """

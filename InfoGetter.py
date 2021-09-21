@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jan  4 11:30:49 2021
-@author: Ethan
+@author: ekohrt
 
 A collection of static methods for parsing and retreiving various data 
 for the magicDeckViewer GUI.
@@ -21,7 +21,7 @@ class InfoGetter:
     
     def __init__(self):
         #read the mtgJSON file
-        with open('other_files/AtomicCards.json', encoding="utf8") as atomicFile:
+        with open('other_files/AtomicCards_Small.json', encoding="utf8") as atomicFile:
             self.cards_dict = json.load(atomicFile)
         #tf vectors, tfidf model, and a parallel list of corresponding cardNames
         self.tfs, self.tfidf, self.cardNames = self.initTfidf(self.cards_dict)
