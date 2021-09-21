@@ -1,0 +1,5 @@
+pyuic5 -x uiFileName.ui -o pythonFileName.py
+
+^converts the .ui file to a .py file with the given name
+^enter into cmd prompt WITHIN THIS DIRECTORY
+Source: https://youtu.be/FVpho_UiDAY?t=500
