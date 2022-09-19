@@ -1,6 +1,5 @@
 # Deck-building Tool for Magic: the Gathering
-Python UI for viewing a Magic: the Gathering decklist.  
-Also includes NLP tools for finding similar cards and deck suggestions.  
+Python UI with NLP tools for finding similar cards and deck suggestions.  
 
 ![Preview image](preview_image.png?raw=true "Preview image")  
   
